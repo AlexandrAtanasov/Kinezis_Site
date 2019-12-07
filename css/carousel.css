@@ -1,0 +1,27 @@
+.content__article_carousel {
+    /* height: 60vh; */
+    /* width: 100%; */
+    /* min-height: 500px; */
+    margin: 0 1rem 1rem 1rem;
+    padding: 0;
+    background: none;
+}
+.content__elem_carousel {
+    /* width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.content__elem_carousel_hide {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+
+}
+.content__elem_carousel_show {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}

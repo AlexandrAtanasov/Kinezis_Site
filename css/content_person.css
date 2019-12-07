@@ -1,0 +1,83 @@
+/* styles for persons */
+.content__person{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: #8EB251; */
+}
+.content__person_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+}
+.content__person_elem {
+    display: flex;
+    flex-direction: column;
+    background:	#717171;
+    margin: 0 0.5rem 1rem 0.5rem;
+    width: 30%;
+    min-width: 13rem;
+    align-items: center;
+    /* for big screen */
+    /* min-width: max-content;  */
+    /* for mobile screen */
+    /* max-width: min-content; */
+    transition: all .1s linear;
+}
+.content__person_elem_doctors 
+{
+    height: fit-content;
+}
+.content__person_elem:hover
+{
+    box-shadow: 0 12px 24px rgba(0,0,0,.35), 0 12px 16px rgba(0,0,0,.35);
+    transform: scale(1.01);
+    transition: all .1s linear;
+}
+.content__person_elem:hover .content__person_review {
+    display: block;
+}
+p.content__person_review
+{
+    display: none;
+}
+.content__person_img 
+{
+    position: relative;
+    background: #fff;
+    margin: 0rem 1rem 0rem;
+    width: 100%;
+    align-items: center;
+}
+.content__person_img_elem 
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+
+    background-position: top;
+}
+.content__person_info {
+    display: block;
+    /* background: white; */
+    margin: 1rem;
+    width: 90%;
+    /* min-width: 200px; */
+    /* min-height: 200px; */
+    align-items: center;
+}
+/* .content__person_info p {
+    display: block;
+    color: white;
+}
+.content__person_fio {
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+} */
