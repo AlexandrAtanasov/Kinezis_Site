@@ -49,13 +49,22 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/54928126" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
+<!-- New Year -->
+    <?php include(__DIR__ . '/happy_new_year.php'); ?>
+<!-- New Year -->
+
 	<?php
-		include(__DIR__ . '/main_header.php');
-		include(__DIR__ . '/main_navigation.php');
+        include(__DIR__ . '/main_header.php');
+        include(__DIR__ . '/main_navigation.php');
 		include(__DIR__ . '/main_content_start.php');
+    ?>
 
+<!-- New Year Garland-->
+    <div style="height: 30px; background: url(https://uguide.ru/js/script/girlianda_uguide_ru_2.gif) repeat-x 100%;"></div>
+<!-- New Year Garland-->
+
+    <?php
 		include(__DIR__ . '/../views/' . $content_view);
-
         include(__DIR__ . '/../html/main__content_stop.html');
         include(__DIR__ . '/../html/footer.html');
         include(__DIR__ . '/overlay_callback.php');

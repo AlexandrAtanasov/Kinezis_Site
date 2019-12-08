@@ -104,7 +104,7 @@
 
                         <li class="nav__menu_method">
                             <span>
-                                О методике
+                                Авторская колонка
                             </span>
                         </li>
 

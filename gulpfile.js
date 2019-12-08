@@ -67,6 +67,8 @@ gulp.task('concat_css', function() {
 		'./css/scrollingElements.css',
 		'./css/slider.css',
 		'./css/carousel.css',
+		//TODO: Delete this after 31.12
+		'./css/new_year.css',
 		'./css/media_query.css'
 		// './css/*.css'
 	])
@@ -91,7 +93,9 @@ gulp.task('concat_js', function() {
 		'./js/overlaySliderPainting.js',
 		'./js/slider.js',
 		'./js/openSlider.js',
-		'./js/carousel.js'
+		'./js/carousel.js',
+		//TODO: Delete this after 31.12
+		'./js/new_year.js', 
 		// './js/*.js'
 	])
 	.pipe(concat('script.js'))

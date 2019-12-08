@@ -1,6 +1,6 @@
 <div class="content__article decoration__select_none">
     <div class="headline decoration__select_none">
-        <span>Методология</span>
+        <span>Авторская колонка</span>
     </div>
 
     <div class="content__article_box">
@@ -31,7 +31,7 @@
                         </div>
                         </br>
 
-                        <div class="content__person_img" style="width:90%;">
+                        <div class="content__person_img" style="width:90%; max-height: 70vh; overflow: hidden;">
                             <div class="content__person_img_elem" style="background-image: url(
                                 ' . $row['Img'] . '
                             )"></div>

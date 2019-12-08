@@ -84,7 +84,7 @@
                     </li>
                     <li class="nav__menu_method">
                         <span>
-                            О методике
+                            Авторская колонка
                         </span>
                     </li>
                     <li class="nav__menu_rules">
