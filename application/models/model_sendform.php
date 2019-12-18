@@ -26,9 +26,9 @@
             elseif  ( isset($name)&&($name!='')&&isset($number)&&($number!='')&&(isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']!='') ) 
             {
                 $toAdmin = $emailAddress;
-                $subjCallback = 'info@kinezis59.ru';
+                $subjCallback = 'Заявка с сайта kinezis59.ru';
                 $headers  = "Content-type: text/html; charset=UTF-8 \r\n"; 
-                $headers .= "From: kinezis59.ru\r\n"; 
+                $headers .= "From: info@kinezis59.ru\r\n"; 
                 $headers .= "Reply-To: atanasovalexandr@yandex.ru\r\n"; 
                 $message = 'Имя: ' . $name . '. ' . "<br>";
                 $message .= 'Номер телефона: ' . $number . '. ' . "<br>";

@@ -97,6 +97,11 @@
         box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15), 0 12px 16px rgba(0, 0, 0, 0.15) ;
         transition: all 1s ease;
     }
+    .content__person_img_elem 
+    {
+        background-size: contain
+    }
+    
 }
 @media screen and (min-width: 1131px) and (max-width: 1280px) {
     body {
@@ -509,7 +514,7 @@
     }
     .content__elem_carousel {
         width: 100%;
-        padding-top: 100%;
+        /* padding-top: 100%; */
     }
 }
 @media screen and (max-width: 400px) {
@@ -763,6 +768,6 @@
     }
     .content__elem_carousel {
         width: 100%;
-        padding-top: 100%;
+        /* padding-top: 100%; */
     }
 }

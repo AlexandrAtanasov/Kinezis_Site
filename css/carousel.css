@@ -25,3 +25,13 @@
     transition-property: opacity;
     transition-duration: 0.5s;
 }
+
+/* upgrade slick styles */
+.slick-list.draggable
+{
+    height: 100%;
+}
+.slick-track
+{
+    height: inherit;
+}
