@@ -25,20 +25,20 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149278926-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149278926-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-149278926-1');
-    </script>
+    </script> -->
     <!-- /Google Analytics -->
 </head>
 <body>
 
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
+<!-- <script type="text/javascript" >
        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -49,7 +49,7 @@
             accurateTrackBounce:true
        });
     </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/54928126" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/54928126" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
 <!-- /Yandex.Metrika counter -->
 
 <!-- New Year -->
@@ -76,7 +76,7 @@
         include(__DIR__ . '/../html/overlay_slider.html');
 	?>
     
-    <script src="../../application/js/script.js"></script>
+    <script type="text/javascript" src="../../application/js/script.js"></script>
     <script type="text/javascript" src="assets/slick/slick.min.js"></script>
 
     </body>

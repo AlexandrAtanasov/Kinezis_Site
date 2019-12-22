@@ -53,7 +53,7 @@ $(document).ready(function() {
 	});
 
 	// for callback button
-	$("li.header__callback_box").on('click', function (event) { 
+	$(".header__callback_box").on('click', function (event) { 
 		event.stopPropagation();
 		event.stopImmediatePropagation();
 		$(".overlay__menu_telephone_container").toggleClass("overlay__hide");
@@ -62,7 +62,7 @@ $(document).ready(function() {
 		// $(".overlay__blur").toggleClass("overlay__blur_hidden");
 
 		//TODO: Delete this after 31.12 or create a separate js
-		newyearHide();
+		// newyearHide();
 	});
 	$(".overlay__content_container .overlay__content_buttonClose").on('click', function (event){
 		event.stopPropagation();
@@ -72,6 +72,7 @@ $(document).ready(function() {
 		
 		//TODO: Delete this after 31.12 or create a separate js
 		newyearHide();
+
 		if ($(".header__callphone_box button.header__callback_button").hasClass("desktop"))
 		{
 			$(".overlay__blur").toggleClass("blur");

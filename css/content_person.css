@@ -30,24 +30,36 @@
 {
     height: fit-content;
 }
-.content__person_elem:hover
+/* .content__person_elem:hover
 {
     box-shadow: 0 12px 24px rgba(0,0,0,.35), 0 12px 16px rgba(0,0,0,.35);
     transform: scale(1.01);
     transition: all .1s linear;
+} */
+.content__person_elem:hover .content__person_img_elem
+{
+    transform: scale(1.05);
+    transition: all .1s linear;
 }
-.content__person_elem:hover .content__person_review {
+/* .content__person_elem:hover .content__person_review {
     display: block;
-}
-p.content__person_review
+} */
+p.content__person_review_hide
 {
     display: none;
 }
+p.content__person_review
+{
+    display: block;
+}
+
+/*  */
 .content__person_img 
 {
+    overflow: hidden;
     position: relative;
     background: #fff;
-    margin: 0rem 1rem 0rem;
+    /* margin: 0rem 1rem 0rem; */
     width: 100%;
     align-items: center;
 }
@@ -58,8 +70,8 @@ p.content__person_review
     display: block;
     width: 100%;
     padding-top: 100%;
-
     background-position: top;
+    transition: all .1s linear;
 }
 .content__person_info {
     display: block;

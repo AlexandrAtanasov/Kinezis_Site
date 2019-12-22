@@ -87,3 +87,23 @@
 .content__article_imagesBox .content__article_img .content__article_img_licences {
     background-size: contain;
 }
+
+/* new styles for images  */
+.content__adaptive_img 
+{
+    position: relative;
+    background: #fff;
+    margin: 0rem 1rem 0rem;
+    width: 100%;
+    align-items: center;
+}
+.content__adaptive_img_elem 
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+
+    background-position: top;
+}

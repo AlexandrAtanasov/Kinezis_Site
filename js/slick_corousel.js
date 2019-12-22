@@ -20,6 +20,52 @@ $(document).ready(function()
       dots: true,
       arrows: false,
     });
+    
+    
+    $(".person_corousel").slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        lazyLoad: 'ondemand',
+        autoplaySpeed: 2000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        
+        speed: 500,
+        responsive: [
+          {
+            breakpoint: 1131,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 911,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 711,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              adaptiveHeight: true,
+            }
+          }
+        ]
+      });
+
+    //click on the button to show information about people on the main page on a big screen
+    $(".content__person_review_show").on('click', function(event){
+        $that = $(this);
+        $thatText = $that.text();
+        $that.text($thatText == 'Читать далее...' ? 'Скрыть' : 'Читать далее...');
+        $that.next(".content__person_review_hide").toggleClass("content__person_review");
+    });
 
 });
 

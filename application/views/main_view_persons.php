@@ -4,13 +4,12 @@
         <span>Наша команда</span>
     </div>
 
-    <div class="content__person_box">
+    <div class="content__person_box person_corousel">
         <?php
             foreach ( $data as $row )
             {
                echo 
                     '<div class="content__person_elem content__person_elem_doctors">
-                    
                         <div class="content__person_img">
                             <div class="content__person_img_elem" style="background-image: url(' 
                                 . $row['Img'] .
@@ -26,19 +25,20 @@
                             <p class="content__person_review">' 
                                 . $row['About'] . 
                             '</p> <br/>
-                            <p class="content__person_review">' 
+
+                            <span class="content__person_review_show decoration__link">Читать далее...</span>
+                            
+                            <p class="content__person_review_hide">' 
                                 . $row['Review'] . 
                             '</p>
                         </div> 
-
                     </div>';
             }
-
         ?>
     </div>
 </div>
 
-<div class="content__article decoration__select_none">
+<div class="content__article decoration__select_none" style="margin-top:1rem">
     <div class="content__article_box">
         <div class="content__article_elem">
             <div class="content__article_body">
@@ -67,3 +67,42 @@
         </div> 
     </div>
 </div>
+
+
+<!-- <section class="regular slider">
+    <div>
+      <img src="http://placehold.it/350x300?text=1">
+      <p>Information:</p>
+      <p>Some text</p>
+    </div>
+    <div>
+      <img src="http://placehold.it/350x300?text=2">
+      <p>Information:</p>
+      <p>Some text</p>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+    <div>
+      <img src="http://placehold.it/350x300?text=3">
+      <p>Information:</p>
+      <p>Some text</p>
+    </div>
+    <div>
+      <img src="http://placehold.it/350x300?text=4">
+      <p>Information:</p>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+    <div>
+      <img src="http://placehold.it/350x300?text=5">
+      <p>Information:</p>
+      <p>Some text</p>
+    </div>
+    <div>
+      <img src="http://placehold.it/350x300?text=6">
+      <p>Information:</p>
+      <p>Some text</p>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </section> -->

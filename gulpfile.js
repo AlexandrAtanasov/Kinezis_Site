@@ -74,7 +74,7 @@ gulp.task('concat_css', function() {
 	])
 	.pipe(concat('style.css'))
 	.pipe(autoprefixer({
-    	// browsers: ['last 10 versions'],
+    	overrideBrowserslist: ['last 10 versions'],
     	cascade: false}))
 	.pipe(csso())
 	.pipe(gulp.dest('./application/css/'))
