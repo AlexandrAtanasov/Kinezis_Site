@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" href="/../assets/images/logo/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../application/css/style.css?v=20191218">
+    <link rel="stylesheet" href="../../application/css/style.css?v=20191222">
 
     <link rel="stylesheet" type="text/css" href="/../assets/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="/../assets/slick/slick-theme.css"/>
@@ -52,21 +52,10 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/54928126" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
 <!-- /Yandex.Metrika counter -->
 
-<!-- New Year -->
-    <?php include(__DIR__ . '/happy_new_year.php'); ?>
-<!-- New Year -->
-
 	<?php
         include(__DIR__ . '/main_header.php');
         include(__DIR__ . '/main_navigation.php');
 		include(__DIR__ . '/main_content_start.php');
-    ?>
-
-<!-- New Year Garland-->
-    <div style="height: 30px; background: url(https://uguide.ru/js/script/girlianda_uguide_ru_2.gif) repeat-x 100%;"></div>
-<!-- New Year Garland-->
-
-    <?php
 		include(__DIR__ . '/../views/' . $content_view);
         include(__DIR__ . '/../html/main__content_stop.html');
         include(__DIR__ . '/../html/footer.html');
