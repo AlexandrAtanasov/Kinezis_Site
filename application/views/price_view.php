@@ -4,9 +4,27 @@
         <span>Стоимость услуг</span>
     </div>
     
+    <div class="content__article_box">
+        <div class="content__article_elem content__article_carousel lazy">
+        </div>
+    </div>
+    <ul class="content__carousel_img" style="display:none;">
+        <?php
+            foreach( $data4 as $row )
+            {
+                echo 
+                    '<li class="content__carousel_img_src">'
+                        . $row['Img'] .
+                    '</li>
+                    <li class="content__carousel_img_src">'
+                        . $row['Img2'] .
+                    '</li>';
+            }
+        ?>
+    </ul>
+
     <div class="content__price_box">
         
-
         <div class="content__price_services">
             <span class="content__prices_title">
                 Консультации

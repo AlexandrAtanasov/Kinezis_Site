@@ -43,6 +43,20 @@
             FROM cost_abonement_support;");
             return $result3;
         }
+        
+        public function get_data4()
+        {
+            $result = null;
+            $pdo = null;
+            require __DIR__ . '/../core/std_incl.php';
+            
+            $pdo->query("SET CHARACTER SET 'utf8'");
+            
+            $result4 = $pdo->query("SELECT 
+            `Img`, `Img2` 
+            FROM `cost_abonement_sale`;");
+            return $result4;
+        }
 
     }
 
