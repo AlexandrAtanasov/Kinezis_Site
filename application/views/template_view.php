@@ -66,7 +66,7 @@
 	?>
     
     <script type="text/javascript" src="../../application/js/script.js"></script>
-    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../../assets/slick/slick.min.js"></script>
 
     </body>
 </html>

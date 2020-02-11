@@ -26,3 +26,7 @@ body, input, textarea
     font-family: "Open Sans";
     font-size: 1em;
 }
+main 
+{
+    min-width: 0px;
+}
