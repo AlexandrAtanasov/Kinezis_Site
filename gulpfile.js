@@ -68,7 +68,7 @@ gulp.task('concat_css', function() {
 		'./css/slider.css',
 		'./css/carousel.css',
 		//TODO: Delete this after 31.12
-		'./css/new_year.css',
+		//'./css/new_year.css',
 		'./css/media_query.css'
 		// './css/*.css'
 	])
@@ -95,7 +95,7 @@ gulp.task('concat_js', function() {
 		'./js/openSlider.js',
 		'./js/slick_corousel.js',
 		//TODO: Delete this after 31.12
-		'./js/new_year_2.js', 
+		//'./js/new_year_2.js', 
 		// './js/*.js'
 	])
 	.pipe(concat('script.js'))

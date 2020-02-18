@@ -1,5 +1,4 @@
 <?php
-
     class Controller_Additional extends Controller
     {
         public function __construct()
@@ -9,7 +8,7 @@
         }
         public function action_service()
         {
-            $routes = explode( '/', $_SERVER['REQUEST_URI'] );
+            $routes = checkRoute();
             if ( !empty($routes[3]) )
             {
                 $service = $routes[3];
@@ -28,7 +27,6 @@
                 $data = $this -> model -> get_data();
                 $this -> view -> generate('additional_view.php', 'template_view.php', $data);
             }
-
         } 
     }
 ?>

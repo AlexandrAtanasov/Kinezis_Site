@@ -1,12 +1,9 @@
 <?php
-
     class Model_Additional extends Model
     {
         public function get_data()
         {
-
-            $routes = explode( '/', $_SERVER['REQUEST_URI'] );
-            
+            $routes = checkRoute();
             // get additional service's id
             if ( !empty($routes[3]) )
             {
@@ -50,7 +47,5 @@
                 FROM `additional_equipment_list`");
             return $result;
         }
-
     }
-
 ?>

@@ -4,9 +4,7 @@
     {
         public function get_data()
         {
-
-            $routes = explode( '/', $_SERVER['REQUEST_URI'] );
-            
+            $routes = checkRoute();
             // get problem's id
             if ( !empty($routes[3]) )
             {

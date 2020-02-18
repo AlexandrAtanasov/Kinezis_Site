@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" href="/../assets/images/logo/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../application/css/style.css?v=20191222">
+    <link rel="stylesheet" href="../../application/css/style.css?v=20200218">
 
     <link rel="stylesheet" type="text/css" href="/../assets/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="/../assets/slick/slick-theme.css"/>

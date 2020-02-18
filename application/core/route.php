@@ -1,8 +1,8 @@
 <?php
-/* 
-     starting Controllers methods
-     which one will start generate views of pages 
- */
+    /* 
+        starting Controllers methods
+        which one will start generate views of pages 
+    */
     class Route
     {
         static function start() 
@@ -10,8 +10,9 @@
             // controller and default action
             $controller_name = 'Main';
             $action_name = 'index';
-
-            $routes = explode( '/', $_SERVER['REQUEST_URI'] );
+            
+            require __DIR__.'/checkRoute.php';
+            $routes = checkRoute();
             
             // get controller's name
             if ( !empty($routes[1]) )
@@ -20,19 +21,10 @@
             };
 
             // get action's name
-            if ( !empty($routes[2]) )
+            if ( !empty($routes[2]))
             {
                 $action_name = $routes[2];
             };
-
-            //yandex direct exception
-            $yandexReg = '/.?yclid=/m';
-            if (!empty($routes[1]) && (preg_match($yandexReg, $routes[1]) )) 
-            {
-                $controller_name = 'Main';
-                $action_name = 'index';
-            };
-           
 
             // set prefixes
             $model_name = 'Model_' . $controller_name;
@@ -84,5 +76,4 @@
             $controller->$action();
         }
     }
-
 ?>

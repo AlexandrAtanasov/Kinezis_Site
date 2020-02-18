@@ -1,8 +1,10 @@
 <div class="content__article decoration__select_none">
     
     <div class="headline decoration__select_none">
-        <span>Акции</span>
+        <br/>
+        <span>«Лечение спины и суставов без лекарств и операций» – директор сети центров «Кинезис», Некрасова Э.В.</span>
     </div>
+        <br/>
 
     <div class="content__article_box">
         <div class="content__article_elem content__article_carousel lazy">
