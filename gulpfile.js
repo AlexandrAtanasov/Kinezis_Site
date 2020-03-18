@@ -1,7 +1,6 @@
 'use strict';
 
 var gulp = require('gulp'),
-	// sass = require('gulp-sass'),
 	// gl = require('gulp-load-plugins')();
 	browserSync = require('browser-sync').create(),
 	concat = require('gulp-concat'),
@@ -9,45 +8,6 @@ var gulp = require('gulp'),
 	uglify = require('gulp-uglify'),
 	clean = require('gulp-clean'),
 	csso = require('gulp-csso');
-
-// sass.compiler = require('node-sass');
-
-// starting server
-// Static server
-// gulp.task('browser-sync', function() {
-//     browserSync.init({
-//         server: {
-//             baseDir: "/"
-//         }
-//     });
-// 	// gulp.watch("./").on('change', browserSync.reload)
-// });
-//proxy
-// gulp.task('browser-sync', function() {
-//     browserSync.init({
-// 			proxy: "http://kinezis.perm/",
-// 			host: 'kinezis.perm',
-// 			port: 3000,
-// 			open: 'external',
-// 			notify:    true,
-// 			ghost:     true,
-// 			// files:     ['C:\\Users\\Александр\\Desktop\\ospanel\\domains\\kinezis.perm\\']
-// 			files:     ['/']
-// 	});
-// // 	browserSync.watch("C:\\Users\\Александр\\Desktop\\ospanel\\domains\\kinezis.perm\\").on('change', browserSync.reload)
-// });
-
-// working whith sass
-// gulp.task('sass', function () {
-//   return gulp.src('./dev/css/sass/**/*.scss')
-//     .pipe(sass().on('error', sass.logError))
-// 	.pipe(gl.autoprefixer({
-//     	browsers: ['last 10 versions'],
-//     	cascade: false}))
-// 	.pipe(gl.csso())
-//     .pipe(gulp.dest('../../public/KP_P_test/test_css'))
-// });
-
 
 // Concat CSS - START
 gulp.task('concat_css', function() {
