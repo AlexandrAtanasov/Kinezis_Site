@@ -74,7 +74,7 @@
                 <ul class='nav__menu_drop decoration__select_none decoration__list_none'>
                     <li class="nav__menu_person">
                         <span>
-                            Наша комманда
+                            Наша команда
                         </span>
                     </li>
                     <li class="nav__menu_centers">
