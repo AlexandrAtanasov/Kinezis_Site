@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../application/css/style.css?v=20200329">
+    <link rel="stylesheet" href="../../application/css/style.css?v=20200705">
 
     <link rel="stylesheet" type="text/css" href="/../assets/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="/../assets/slick/slick-theme.css"/>
@@ -66,7 +66,7 @@
         include(__DIR__ . '/../html/overlay_slider.html');
 	?>
     
-    <script type="text/javascript" src="../../application/js/script.js"></script>
+    <script type="text/javascript" src="../../application/js/script.js?v=20200705"></script>
     <script type="text/javascript" src="../../assets/slick/slick.min.js"></script>
 
     </body>
