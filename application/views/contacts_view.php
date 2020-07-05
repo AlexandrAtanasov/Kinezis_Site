@@ -3,8 +3,8 @@
     <div class="headline decoration__select_none">
         <span>Контакты</span>
     </div>
-    <!-- Кинезис на Екатерининской -->
     <div class="content__contacts_box">
+        <!-- Кинезис на Екатерининской -->
         <div 
             class='content__contacts_elem'
             itemscope 
