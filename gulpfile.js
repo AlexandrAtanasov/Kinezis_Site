@@ -124,19 +124,7 @@ gulp.task('make_new_public', gulp.series(
 ));
 // Make "PUBLIC" - FINISH
 
-
-// watching for folders for any changes task
-gulp.task('watchThis', function() {
-	gulp.watch('./js/**/*.js', gulp.series('clean_dest_js', 'concat_js') );
-	gulp.watch('./css/*.css', gulp.series('clean_dest_css', 'concat_css') );
-	// gulp.watch('./dev/js/**/*.js', gulp.series('clean_dest_js', 'concat_js') );
-	// gulp.watch('./dev/html/**/*.html', gulp.series('clean_dest_html', 'copy_html') );
-	// gulp.watch('./dev/img/**/*.*', gulp.series('clean_dest_img', 'copy_img') );
-	// gulp.watch('./dev/php/**/*.php', gulp.series('clean_dest_php', 'copy_php') );
-	// gulp.watch('./dev/*.php', gulp.series('clean_dest_index', 'copy_index') );
-});
-
 gulp.task('default', 
 	// gulp.parallel('watchThis', 'serve'),
 	gulp.parallel('concat'),
-	);
+);
