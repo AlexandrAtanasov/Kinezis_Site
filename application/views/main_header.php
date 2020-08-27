@@ -55,15 +55,15 @@
                                         itemprop="address" 
                                         itemscope itemtype="http://schema.org/PostalAddress"
                                     >
-                                        <span itemprop="streetAddress">ул. Екатерининская, 165</span><span> - ФОК</span>
+                                        <span itemprop="streetAddress">ул. Ленина, 87</span><span> - ФОК</span>
                                     </div>
                                     <div>
                                         <a 
                                             itemprop="telephone"
-                                            href="tel:83422447616" 
+                                            href="tel:89129831508" 
                                             title="Позвоните нам!"
                                         >
-                                            8-342-244-76-16
+                                            +7-912-983-15-08
                                         </a>
                                     </div>
                                 </li>
