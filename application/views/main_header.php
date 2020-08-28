@@ -44,7 +44,7 @@
                                         </a>
                                     </div>
                                 </li>
-                                <!-- Кинезис на Екатерининской -->
+                                <!-- Кинезис на Ленина -->
                                 <li
                                     itemscope itemtype="http://schema.org/Organization"
                                 >
