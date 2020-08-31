@@ -55,7 +55,7 @@
                                         itemprop="address" 
                                         itemscope itemtype="http://schema.org/PostalAddress"
                                     >
-                                        <span itemprop="streetAddress">ул. Ленина, 87</span><span> - ФОК</span>
+                                        <span itemprop="streetAddress">ул. Ленина, 87</span><span> - Медицинский центр</span>
                                     </div>
                                     <div>
                                         <a 

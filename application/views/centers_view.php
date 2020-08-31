@@ -8,17 +8,16 @@
 
             foreach ($data as $row)
             {
-                echo 
-                    '
-                    <div class="content__article_elem">
-
-                        <div class="content__article_img">
-                            <div class="content__article_img_elem" style="background-image: url('
-                                . $row["Img"] 
-                                . ')">
-                            </div>
+                $basic = '<div class="content__article_elem">';
+                $image = 
+                    '<div class="content__article_img">
+                        <div class="content__article_img_elem" style="background-image: url('
+                            . $row["Img"] 
+                            . ')">
                         </div>
-                        <div class="content__article_body">
+                    </div>';
+                $text = 
+                        '<div class="content__article_body">
 
                             <span class="content__article_title">
                                 <h1>'
@@ -29,12 +28,15 @@
                                 . $row['Article']
                             . '</span>
                         </div>
-
-                    </div>
-                    '
+                    </div>'
                 ;
+
+                if (!$row['Img']) {
+                    echo $basic . $text;
+                } else {
+                    echo $basic . $image . $text;
+                };
             }
         ?>
-
     </div>
 </div>
