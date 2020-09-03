@@ -33,11 +33,11 @@
                 <div>
                     <a 
                         itemprop="telephone"
-                        href="tel:89129831508" 
+                        href="tel:83422581658" 
                         title="Позвоните нам!"
                     >
                         <i class="fas fa-phone"></i>     
-                        +7-912-983-15-08
+                        8-342-258-16-58
                     </a>
                 </div>
             </div>
