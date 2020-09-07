@@ -17,7 +17,8 @@
                 >Кинезис на Ленина</span>
             </div>
             <div class="content__contacts_map">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adea7629fc5a568c12339c0e2450a4e623a1d4591b22ac43c66f3198bbf948990&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adea7629fc5a568c12339c0e2450a4e623a1d4591b22ac43c66f3198bbf948990&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true">
+                </script>
             </div>
             <div class="content__contacts_info decoration__select_none">
                 <div>
