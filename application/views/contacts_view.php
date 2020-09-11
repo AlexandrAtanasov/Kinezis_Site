@@ -32,13 +32,14 @@
                     <span itemprop="streetAddress">ул. Ленина, 87.</span>
                 </div>
                 <div>
+                    Единый номер:  
                     <a 
                         itemprop="telephone"
                         href="tel:83422581658" 
                         title="Позвоните нам!"
                     >
                         <i class="fas fa-phone"></i>     
-                        8-342-258-16-58
+                        +7(342)258-16-58
                     </a>
                 </div>
             </div>
@@ -70,13 +71,14 @@
                     <span itemprop="streetAddress">ул. Крупской, 31.</span>
                 </div>
                 <div>
+                    Единый номер:  
                     <a 
                         itemprop="telephone"
-                        href="tel:83422657013" 
+                        href="tel:83422581658" 
                         title="Позвоните нам!"
                     >
                         <i class="fas fa-phone"></i>     
-                        8-342-265-70-13
+                        +7(342)258-16-58
                     </a>
                 </div>
             </div>
@@ -108,13 +110,14 @@
                     <span itemprop="streetAddress">ул. Маршала Рыбалко, 85В.</span>
                 </div>
                 <div>
+                    Единый номер:  
                     <a 
                         itemprop="telephone"
-                        href="tel:83422009469" 
+                        href="tel:83422581658" 
                         title="Позвоните нам!"
                     >
                         <i class="fas fa-phone"></i>     
-                        8-342-200-94-69
+                        +7(342)258-16-58
                     </a>
                 </div>
             </div>

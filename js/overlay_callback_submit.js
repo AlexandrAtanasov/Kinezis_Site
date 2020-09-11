@@ -15,16 +15,11 @@ $(document).ready(function() {
                     url: "/sendform", 
                     data: fdata,
                 }).done(function(data) {  
-                        alert(data );
+                        alert(data);
                         thisForm.reset();
                 }).fail(function() {
                     alert('Ошибка заполнения данных');
                 }); 
-                // });
-                    // }).done(function() {
-                    //     thisForm.reset();
-                // success: function() {  
-                // error: function() {
                 return false;
             };
         }

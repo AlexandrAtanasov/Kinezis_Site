@@ -34,15 +34,6 @@
                                     >
                                         <span itemprop="streetAddress">ул. Крупской, 31</span><span> - Медицинский центр</span>
                                     </div>
-                                    <div>
-                                        <a 
-                                            itemprop="telephone"
-                                            href="tel:83422657013" 
-                                            title="Позвоните нам!"
-                                        >
-                                            8-342-265-70-13
-                                        </a>
-                                    </div>
                                 </li>
                                 <!-- Кинезис на Ленина -->
                                 <li
@@ -56,15 +47,6 @@
                                         itemscope itemtype="http://schema.org/PostalAddress"
                                     >
                                         <span itemprop="streetAddress">ул. Ленина, 87</span><span> - Медицинский центр</span>
-                                    </div>
-                                    <div>
-                                        <a 
-                                            itemprop="telephone"
-                                            href="tel:83422581658" 
-                                            title="Позвоните нам!"
-                                        >
-                                            8-342-258-16-58
-                                        </a>
                                     </div>
                                 </li>
                                 <!-- Кинезис на Маршала Рыбалко -->
@@ -80,13 +62,16 @@
                                     >
                                         <span itemprop="streetAddress">ул. Маршала Рыбалко, 85В</span><span> - ФОК</span>
                                     </div>
+                                    <br/>
                                     <div>
+                                        Единый номер:  
                                         <a 
                                             itemprop="telephone"
-                                            href="tel:83422009469" 
+                                            href="tel:83422581658" 
                                             title="Позвоните нам!"
                                         >
-                                            8-342-200-94-69
+                                            <i class="fas fa-phone"></i>     
+                                            +7(342)258-16-58
                                         </a>
                                     </div>
                                 </li>
