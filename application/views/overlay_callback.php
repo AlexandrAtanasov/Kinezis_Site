@@ -23,7 +23,7 @@
                     <legend class="overlay__content_form_title decoration__select_none">Выберите ближайший центр:</legend>
                     <div class="overlay__content_form_adresses">
                         <p><input class="overlay__content_form_radio" type="radio" name="center" value="Крупской, 31" id="Krupskoy"><label for="Krupskoy" class="overlay__content_form_radio">Крупской, 31</label></p>
-                        <p><input class="overlay__content_form_radio" type="radio" name="center" value="Екатерининская, 165" id="Ekaterininskaya"><label for="Ekaterininskaya" class="overlay__content_form_radio">Екатерининская, 165</label></p>
+                        <p><input class="overlay__content_form_radio" type="radio" name="center" value="Ленина, 87" id="Lenina"><label for="Lenina" class="overlay__content_form_radio">Ленина, 87</label></p>
                         <p><input class="overlay__content_form_radio" type="radio" name="center" value="Маршала Рыбалко, 85В" id="MRybalko"><label for="MRybalko" class="overlay__content_form_radio">Маршала Рыбалко, 85В</label></p>
                     </div>
             
