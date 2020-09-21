@@ -32,6 +32,13 @@
                     <span itemprop="streetAddress">ул. Ленина, 87.</span>
                 </div>
                 <div>
+                    <span>Режим работы:</span>
+                </div>
+                <div>
+                    <span>пн-пт 8:00-21:00;</span>
+                    <span>сб 9:00-17:00.</span>
+                </div>
+                <div>
                     Единый номер:  
                     <a 
                         itemprop="telephone"
@@ -71,6 +78,13 @@
                     <span itemprop="streetAddress">ул. Крупской, 31.</span>
                 </div>
                 <div>
+                    <span>Режим работы:</span>
+                </div>
+                <div>
+                    <span>пн-пт 8:00-21:00;</span>
+                    <span>сб 9:00-17:00.</span>
+                </div>
+                <div>
                     Единый номер:  
                     <a 
                         itemprop="telephone"
@@ -108,6 +122,13 @@
                 >
                     <span itemprop="addressLocality">Пермь, </span>
                     <span itemprop="streetAddress">ул. Маршала Рыбалко, 85В.</span>
+                </div>
+                <div>
+                    <span>Режим работы:</span>
+                </div>
+                <div>
+                    <span>пн-пт 8:00-21:00;</span>
+                    <span>сб 9:00-15:00.</span>
                 </div>
                 <div>
                     Единый номер:  
