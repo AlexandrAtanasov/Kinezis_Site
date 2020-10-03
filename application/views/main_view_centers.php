@@ -24,12 +24,6 @@
                                 . ')">
                             </div>
                         </div>
-                        <div class="content__article_img slider__open">
-                            <div class="content__article_img_elem" style="background-image: url('
-                                . $row['Img3'] 
-                                . ')">
-                            </div>
-                        </div>
 
                         <div class="content__article_body">
                             <span class="content__article_title">
