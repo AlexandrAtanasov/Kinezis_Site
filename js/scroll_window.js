@@ -15,10 +15,6 @@ $(document).ready( function() {
             removeHeaderClasses();
             $(".header__callback_button").removeClass("mobile");
             $(".header__callback_button").addClass("desktop");
-            // $(".header__callback_box").removeClass("overlay__hide");
-            // $(".header__telephone_box").removeClass("header__callphone_box");
-            // $(".header__callback_box").addClass("header__callphone_box");
-            // $(".header__telephone_box").addClass("overlay__hide");
         } else if ( window.matchMedia( "screen and (max-width: 1130px)").matches ) {
             removeNavClasses();
             $(".header__callback_button").removeClass("desktop");
@@ -69,5 +65,4 @@ function removeNavClasses() {
 function removeAllClasses() {
     removeHeaderClasses();
     removeNavClasses();
-    // console.log("странный размер экрана, ничего не работает!");
 }
